@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautyKu</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <img id="logo" src="logo.png">
+        <div id="navbar1">
+            <a href="home.html" class="anavbar"><b>Home</b></a>
+            <a href=""><b>Skincare</b></a>
+            <a href=""><b>MakeUp</b></a>
+        </div>
+        <img src="person.png" id="person">
+    </div>
+    <div id="hal1">
+        <div id="isi">
+            <img src="circle.png" id="lingkaran">
+            <p id="hello"><b>Hello, Selamat Datang!!!</b></p>
+            <p id="nama"><b>Kenali kulitmu bersama BeautyKu</b></p>
+            <p id="kata">Ayo rawat kulitmu dari sekarang untuk bekalmu masa tua nanti!
+                Kulit sehat, bersih, dan terawat. Yuk cek tipe kulitmu di sini!</p>
+            <a href="#hal2"><button id="cek" type="menu"><b>Cek Sekarang</b></button></a>
+        </div>
+        <div id="gambar">
+            <img src="home.png" id="homegambar">
+        </div>
+    </div>
+    <div id="hal2">
+        <div id="cekgambar">
+            <img src="makeup.png" id="makeup">
+        </div>
+        <div id="cekisi">
+            <form name="cekkulit" id="cekform">
+                <p id="kenali"><b>Kenali kulitmu di sini!</b></p>
+                <input type="text" placeholder="Masukkan usiamu" id="usia" class="inputan">
+                <input type="text" placeholder="Masukkan tipe kulitmu" id="tipe" class="inputan">
+                <div id="dua">
+                    <div id="bagian1">
+                        <select id="breakout">
+                            <option>Pilih Periode</option>
+                            <option>Awal Bulan</option>
+                            <option>Tengah Bulan</option>
+                            <option>Akhir Bulan</option>
+                            <option>Menstruasi</option>
+                            <option>Tidak tentu</option>
+                        </select>
+                        <label id="labelbreakout"><b>Breakout</b></label>
+                    </div>
+                    <div id="bagian2">
+                        <select id="masa">
+                            <option>Pilih Masa</option>
+                            <option>3 hari</option>
+                            <option>1 minggu</option>
+                            <option>2 minggu</option>
+                            <option>3 minggu</option>
+                            <option>1 bulan</option>
+                        </select>
+                        <label id="labelmasa"><b>Masa</b></label>
+                    </div>
+                </div>
+                <input type="text" placeholder="Masukkan cuaca lingkunganmu" id="cuaca" class="inputan">
+                <input type="text" placeholder="Masukkan keluhan kulitmu" id="keluhan" class="inputan">
+                <button id="cekhasil" type="button" onclick="tampil()"><b>Cek</b></button>
+            </form>
+        </div>
+    </div>
+    <div id="hal3">
+        <div id="isihasil">
+            <p id="lihat"><b>Yuk, lihat hasilnya</b></p>
+            <table id="tabel" border="1">
+                <tr id="judultab">
+                    <td id="usia1"><b>Usia</b></td>
+                    <td id="tipe1"><b>Tipe Kulit</b></td>
+                    <td id="breakout1"><b>Periode</b></td>
+                    <td id="masa1"><b>Masa</b></td>
+                    <td id="cuaca1"><b>Cuaca</b></td>
+                    <td id="keluhan1"><b>Keluhan</b></td>
+                </tr>
+            </table>
+        </div>
+        <div id="gambarhasil">
+            <img src="people3.png" id="hasilgambar">
+        </div>
+    </div>
+</body>
+</html>

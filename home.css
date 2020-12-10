@@ -1,0 +1,281 @@
+@font-face {
+    font-family: "poppins";
+    src: url(Poppins-Regular.ttf);
+}
+
+@keyframes typing{
+    from{width: 0}
+    to{width:100%}
+}
+
+.aktif{
+    background-color: #D8AC9C;
+    box-shadow: 0px 0px 10px #5c2f27;
+}
+
+body{
+    font-family: "poppins";
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 11%;
+    position: fixed;
+    transition: background-color .5s ease;
+    font-size: 16px;
+}
+
+#navbar1{
+    margin-left: 60%;
+    margin-top: 1.5%;
+}
+
+.navbar a{
+    margin-left: 35px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar a:hover{
+    color: #F2DCBB;
+}
+
+.navbar a:active{
+    color: #F2DCBB;
+}
+
+#logo{
+    width: 129px;
+    height: 59px;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-top: -1%;
+}
+
+#person{
+    margin-left: 35px;
+    width: 40px;
+    height: 40px;
+    margin-top: 1%;
+}
+
+#hal1{
+    background-color: #F2DCBB;
+    background-size: cover;
+    height: 635px;
+    display: flex;
+}
+
+#isi{
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+#lingkaran{
+    margin-top: 13%;
+    margin-left: 8%;
+}
+
+#hello{
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 8%;
+    margin-top: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 10s;
+}
+
+#nama{
+    color: #ffffff;
+    font-size: 35px;
+    margin-top: -8%;
+    margin-left: 8%;
+}
+
+#kata{
+    color: #ffffff;
+    margin-left: 8%;
+    font-size: 20px;
+    margin-top: -4%;
+    width: 650px;
+}
+
+#cek{
+    background-color: #D8AC9C;
+    outline: none;
+    border: none;
+    border-radius: 13px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #ffffff;
+    font-family: "poppins";
+    font-size: 14px;
+    margin-left: 8%;
+    margin-top: 1%;
+}
+
+#cek:hover{
+    box-shadow: 0px 0px 20px white;
+    transition: 0.2s ease;
+}
+
+#homegambar{
+    width: 454px;
+    height: 455px;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+#hal2{
+    background-image: url("bg2.png");
+    display: flex;
+}
+
+#makeup{
+    margin-left: 25%;
+    margin-top: 30%;
+}
+
+#cekisi{
+    margin-left: 17%;
+    margin-top: 8%;
+    width: 50%;
+}
+
+#kenali{
+    color: #D8AC9C;
+    font-size: 45px;
+    margin-bottom: 3px;
+}
+
+.inputan{
+    width: 80%;
+    height: 30px;
+    border-radius: 12px;
+    border: 2.5px solid #F2DCBB;
+    padding-left: 2%;
+    font-family: "poppins";
+    color:  #D8AC9C;
+    outline: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.inputan:hover, #breakout:hover, #masa:hover{
+    border: 2.5px solid #D8AC9C;
+}
+
+#keluhan{
+    height: 70px;
+}
+
+::placeholder{
+    color:  #D8AC9C;
+}
+
+#dua{
+    display: flex;
+    width: 85%;
+}
+
+#breakout, #masa{
+    height: 37px;
+    border-radius: 12px;
+    border: 2.5px solid #F2DCBB;
+    font-family: "poppins";
+    font-size: 14px;
+    width: 200px;
+    padding-left: 10px;
+    margin-top: 10px;
+    outline: none;
+}
+
+#masa{
+    margin-left: 20px;
+}
+
+#labelmasa, #labelbreakout{
+    margin-left: 5px;
+    color:  #D8AC9C;
+}
+
+#cekhasil{
+    background-color: #D8AC9C;
+    outline: none;
+    border: none;
+    border-radius: 13px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #ffffff;
+    font-family: "poppins";
+    font-size: 14px;
+    margin-top: 20px;
+    width: 83%;
+}
+
+#cekhasil:hover{
+    box-shadow: 0px 0px 20px #D8AC9C;
+    transition: 0.2s ease;
+}
+
+#hal3{
+    display: flex;
+}
+
+#isihasil{
+    margin-left: 5%;
+}
+
+#lihat{
+    color: #D8AC9C;
+    font-size: 45px;
+}
+
+#tabel{
+    border-collapse: collapse;
+    margin-top: -30px;
+    border: 3px solid #F2DCBB;
+    text-align: center;
+    color: #D8AC9C;;
+}
+
+#judultab{
+    background-color: #F2DCBB;
+    color: #ffffff;
+}
+
+#usia1{
+    width: 60px;
+}
+
+#tipe1{
+    width: 120px;
+    border-right: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
+}
+
+#breakout1, #masa1 {
+    width: 130px;
+    border-right: 3px solid #ffffff;
+}
+
+#cuaca1{
+    width: 100px;
+    border-right: 3px solid #ffffff;
+}
+
+#keluhan1{
+    width: 250px;
+}
+
+#hasilgambar{
+    margin-left: 20%;
+    width: 350px;
+    height: 350px;
+}
